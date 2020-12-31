@@ -1,0 +1,26 @@
+from enum import Enum
+
+class State(Enum):
+    HOME = 1
+    GAME_TYPE_SELECT = 2
+    LOBBY = 3
+    FINDING_MATCH = 4
+    ACCEPT_SCREEN = 12
+    CHAMPION_SELECT = 5
+    LOCK_IN = 6
+    MOVE_AROUND_MODE = 16
+    OPTIONS = 29
+    SURRENDER_1 = 30
+    SURRENDER_2 = 31
+    EXIT = 32
+    SHOP = 21
+    ITEM = 22
+    CLOSE_SHOP = 24
+    LOCK_SCREEN = 25
+    CANT_BUY_ITEM = 26
+    ACCEPT_VICTORY = 13
+    POST_GAME_LOBBY = 11
+    UNKNOWN_STATE = 15
+    HONOR_SCREEN = 18
+    OK = 19
+    LOADING_SCREEN = 20
